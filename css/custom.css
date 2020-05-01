@@ -1,0 +1,357 @@
+	
+	@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap');
+
+
+	html {
+
+		background: url(../img/background.jpg) repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: 100%;
+		}
+
+
+
+	.nav a {
+		float: left;
+		padding: 20px;
+		font-size: 32px;
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	.nav {
+		position: absolute;
+		top: 5px;
+  		list-style-type: none;
+  		text-decoration: none;
+  		width: 50%;
+  		height: 8%;
+  		position: fixed;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		margin: 0 auto;
+	}
+
+  	.nav a:hover {
+  		background-color: none;
+  		color: #000;
+  	}
+
+  	/*Index CSS Begins*/
+
+  	.header {
+  		position: absolute;
+  		color: white;
+  		margin-left: 550px;
+  		margin-top: 50px;
+  		font-size: 60px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		background: -webkit-linear-gradient(#fff, #ccc);
+ 		-webkit-background-clip: text;
+  		text-shadow: 3px 3px 5px black;
+
+  	}
+
+  	.logo {
+  		position: absolute;
+  		margin-left: 650px;
+  		margin-top: 250px;
+  	}
+
+
+  	/*Index CSS END*/
+  	/*History CSS BEGIN*/
+
+  	  .logo-2 {
+  		margin-left: 10px;
+  	}
+
+  	.history-header {
+  		position: absolute;
+  		top: 20px;
+  		right: 50px;
+  		color: white;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		font-size: 50px;
+  		background: -webkit-linear-gradient(#fff, #ccc);
+ 		-webkit-background-clip: text;
+  		text-shadow: 3px 3px 5px black;
+  	}
+
+  	.history{
+  		position: absolute;
+  		top: 220px;
+  		right: 100px;
+  		border: solid 3px black;
+  		background-color: white;
+  		height: 600px;
+  		width: 800px;
+  		padding: 50px;
+  		border-radius: 5%;
+  		font-family: 'Baloo Thambi 2', cursive;
+
+  	}
+
+  	/*History CSS END*/
+  	/*Rosters CSS BEGIN*/
+
+  	.logo-2 {
+  		position: absolute;
+  		top: 100px;
+  		left: 1px;
+  	}
+
+  	#tabs {
+  		position: absolute;
+  		top: 120px;
+  		right: 70px;
+  		width: 1000px;
+  		height: 1000px;
+  		outline: none;
+  		background-color: transparent;
+  		border: none
+  	}
+
+  	#tabs ul {
+  		background-color: transparent;
+  		border: none;
+  	}
+
+  	#tabs:active {
+  		background: none;
+  		border: none;
+  	}
+
+  	#tabs-1,
+  	#tabs-2,
+  	#tabs-3 {
+  		color: black;
+  		border: solid 3px black;
+  		background-color: white;
+  		border-radius: 5%;
+  		height: 650px;
+  	}
+
+  	#tabs-1 h2,
+  	#tabs-2 h2,
+  	#tabs-3 h2 {
+  		font-family: 'Baloo Thambi 2', cursive;
+  		font-size: 46px;
+  		text-transform: uppercase;
+  		text-align: center;
+  		margin-top: 0px;
+  		margin-bottom: 5px;
+  	}
+
+  	#tabs-1 p,
+  	#tabs-2 p,
+  	#tabs-3 p {
+  		float: left;
+  		text-align: center;
+  		padding: 5px;
+  		margin-left: 5px;
+  	}
+
+  	#tabs a {
+  		float: left;
+  		color: white;
+  		font-family: 'Baloo Thambi 2', cursive;
+		font-size: 30px;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		background-color: black;
+		border: none;
+		outline: none;
+		border-radius: 5%;
+
+  	}
+
+
+  	#tabs li {
+  		border: none;
+  		background: none;
+  	}
+
+  	.ui-state-active,
+	.ui-widget-content .ui-state-active,
+	.ui-widget-header .ui-state-active, 
+	a.ui-button:active, .ui-button:active,
+	.ui-button.ui-state-active:hover {
+		border: none;
+		background: none;
+	}
+
+	.ui-state-active a {
+		color: grey !important;
+	}
+
+	.centered .ui-tabs-nav {
+    text-align: center;
+	}
+
+	.centered .ui-tabs-nav li {
+    display: inline-block;
+    float: none;
+    margin: 0em;
+	}
+
+  	/*Rosters CSS END*/
+  	/*Merch CSS BEGIN*/
+
+  	.header-merch {
+  		position: absolute;
+  		color: white;
+  		margin-left: 800px;
+  		margin-top: 5px;
+  		font-size: 40px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		background: -webkit-linear-gradient(#fff, #ccc);
+ 		-webkit-background-clip: text;
+  		text-align: center;
+  		text-shadow: 3px 3px 5px black;
+  	}
+
+  	.merch-items {
+  		border: solid 3px black;
+  		background-color: white;
+  		position: absolute;
+  		top: 300px;
+  		left: 170px;
+  		width: 1600px;
+  	}
+
+  	.merch-items h2 {
+  		font-size: 40px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		color: black;
+  		width: 100%;
+  		margin-bottom: 50px;
+  	}
+
+  	.jersey-1 {
+  		float: left;
+  		font-size: 20px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		padding: 20px;
+  		width: 45%;
+  		margin-left: 100px;
+	}
+
+	.jersey-2 {
+  		float: left;
+  		font-size: 20px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		padding: 20px;
+  		width: 35%;
+	}
+
+	.tee-1 {
+  		float: left;
+  		font-size: 20px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		padding: 20px;
+  		width: 30%;
+	}
+
+	.jacket-1 {
+  		float: left;
+  		font-size: 20px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		padding: 20px;
+  		width: 30%;
+	}
+
+	.hoodie-1 {
+  		float: left;
+  		font-size: 20px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		padding: 20px;
+  		width: 30%;
+	}
+
+	.hat-1 {
+  		float: left;
+  		font-size: 20px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		padding: 20px;
+  		width: 30%;
+	}
+
+	.hat-2 {
+  		float: left;
+  		font-size: 20px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		padding: 20px;
+  		width: 30%;
+	}
+
+	.hat-3 {
+  		float: left;
+  		font-size: 20px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		padding: 20px;
+  		width: 30%;
+	}
+
+	.mouse-1 {
+  		float: left;
+  		font-size: 20px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		padding: 20px;
+  		width: 30%;
+	}
+
+	.mouse-2 {
+  		float: left;
+  		font-size: 20px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		padding: 20px;
+  		width: 30%;
+	}
+
+	.mouse-3 {
+  		float: left;
+  		font-size: 20px;
+  		font-family: 'Baloo Thambi 2', cursive;
+  		text-align: center;
+  		padding: 20px;
+  		width: 30%;
+	}
+
+	@media only screen and (max-width: 767px) {
+			.logo-2 {
+				display: none;
+			}
+
+			.history {
+				width: 600px;
+				height: 700px;
+				padding: 30px;
+				margin-left: 100px;
+			}
+
+			.history-header {
+				font-size: 35px;
+			}
+
+			.nav a {
+				color: white;
+				width: 10%;
+				height: 10%;
+				font-size: 15px;
+			}
